@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>カート・チェックアウト</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="robots" content="noindex">
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="”icon”" href="" />
+  <!-- css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper.min.css">
+  <link rel="stylesheet" href="./css/styles1111.css">
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+<body>
+  
+
+  <main class="section-main-content">
+    <section class="register">
+        <div class="register__inner inner">
+            <form action="" method="post" class="register__form">
+                <h2 class="register__title">ショッピングカート</h2>
+                <div class="register__step step">
+                    <div class="step__item">
+                        <div class="step__number">1</div>
+                        <span>ショッピング<br class="u-mobile">カート</span>
+                    </div>
+                    <div class="step__item">
+                        <div class="step__number is-active">2</div>
+                        <span>配送先・お支払い<br class="u-mobile">方法選択</span>
+                    </div>
+                    <div class="step__item">
+                        <div class="step__number">3</div>
+                        <span>ご注文完了</span>
+                    </div>
+                </div>
+                <div class="register__wrapper">
+                    <div class="register__addres addresss">
+                        <dl class="addresss__dl">
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">ご注文主</dt>
+                                <dd class="addresss__dd">
+                                    <div class="addresss__name">山田　太郎</div>
+                                    <div class="addresss__address">〒000-0000<br class="u-mobile"> テキストテキストテキストテキストテキストテキストテキストテキスト</div>
+                                    <div class="addresss__tel">00000000000</div>
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">お届け先</dt>
+                                <dd class="addresss__dd">
+                                    <div class="addresss__delivery">
+                                        <label for="delivery">
+                                            <input type="radio" name="address" id="delivery" checked>
+                                            <span>会員情報の住所へ送る</span>
+                                        </label>
+                                    </div>
+                                    <div class="addresss__name">
+                                        <div>
+                                            <span class="u-mobile">お名前：</span>
+                                            <span>山田太郎</span>
+                                        </div>
+                                    </div>
+                                    <div class="addresss__address">
+                                        <div>
+                                            <span class="u-mobile">住所：</span>
+                                            <span>〒000-0000<br class="u-mobile"> テキストテキストテキストテキストテキストテキストテキスト</span>
+                                        </div>
+                                    </div>
+                                    <div class="addresss__tel">
+                                        <div>
+                                            <span class="u-mobile">電話番号：</span>
+                                            <span>00000000000</span>
+                                        </div>
+                                    </div>
+                                    <div class="address__others"><span>その他の住所へ配送する</span></div>
+                                    <div class="address__other-address-wrapper">
+                                        <div class="address__other-address check">
+                                            <label for="address1">
+                                                <input type="radio" name="address" id="address1">
+                                                <div class="address__other-block">
+                                                    <div class="addresss__name">山田　太郎</div>
+                                                    <div class="addresss__address">〒000-0000 テキストテキストテキストテキストテキストテキストテキスト</div>
+                                                    <div class="addresss__tel">00000000000</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="address__other-address check">
+                                            <label for="address2">
+                                                <input type="radio" name="address" id="address2">
+                                                <div class="address__other-block">
+                                                    <div class="addresss__name">山田　太郎</div>
+                                                    <div class="addresss__address">〒000-0000 テキストテキストテキストテキストテキストテキストテキスト</div>
+                                                    <div class="addresss__tel">00000000000</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="address__other-address check">
+                                            <label for="address3">
+                                                <input type="radio" name="address" id="address3">
+                                                <div class="address__other-block">
+                                                    <div class="addresss__name">山田　太郎</div>
+                                                    <div class="addresss__address">〒000-0000 テキストテキストテキストテキストテキストテキストテキスト</div>
+                                                    <div class="addresss__tel">00000000000</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="address__other-address check">
+                                            <label for="address4">
+                                                <input type="radio" name="address" id="address4">
+                                                <div class="address__other-block">
+                                                    <div class="addresss__name">山田　太郎</div>
+                                                    <div class="addresss__address">〒000-0000 テキストテキストテキストテキストテキストテキストテキスト</div>
+                                                    <div class="addresss__tel">00000000000</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="address__other-address check">
+                                            <label for="address5">
+                                                <input type="radio" name="address" id="address5">
+                                                <div class="address__other-block">
+                                                    <div class="addresss__name">山田　太郎</div>
+                                                    <div class="addresss__address">〒000-0000 テキストテキストテキストテキストテキストテキストテキスト</div>
+                                                    <div class="addresss__tel">00000000000</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="address__more view-more">
+                                        <span class="more">VIEW MORE</span>
+                                        <span class="close on-click">閉じる</span>
+                                    </div>
+                                    <div class="address__new-more view-more">
+                                        <span class="more">新規配送先を追加する</span>
+                                    </div>
+                                    <div class="address__new new">
+                                        <div class="new__head">新規配送先を追加する</div>
+                                        <dl class="new__dl">
+                                            <div class="new__row">
+                                                <dt class="new__dt">お名前<span>※</span></dt>
+                                                <dd class="new__dd">
+                                                    <div class="new__dd-name-wrapper">
+                                                        <div class="new__dd-name">
+                                                            <label for="lastname">姓</label>
+                                                            <input placeholder="例） 山田" type="text" name="" id="lastname" required>
+                                                        </div>
+                                                        <div class="new__dd-name">
+                                                            <label for="firstname">名</label>
+                                                            <input placeholder="例） 太郎" type="text" name="" id="firstname" required>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </div>
+                                            <div class="new__row">
+                                                <dt class="new__dt">フリガナ<span>※</span></dt>
+                                                <dd class="new__dd">
+                                                    <div class="new__dd-name-wrapper">
+                                                        <div class="new__dd-name">
+                                                            <label for="frigana-last">姓</label>
+                                                            <input placeholder="例） ヤマダ" type="text" name="" id="frigana-last" required>
+                                                        </div>
+                                                        <div class="new__dd-name">
+                                                            <label for="frigana-first">名</label>
+                                                            <input placeholder="例）タロウ" type="text" name="" id="frigana-first" required>
+                                                        </div>
+                                                    </div>
+                                                </dd>
+                                            </div>
+                                            <div class="new__row">
+                                                <dt class="new__dt">郵便番号<span>※</span></dt>
+                                                <dd class="new__dd">
+                                                    <ul class="new__dd-address">
+                                                        <li>〒</li>
+                                                        <li><input placeholder="例）123" type="text" name="" id="" required></li>
+                                                        <li>ー</li>
+                                                        <li><input placeholder="例）0000" type="text" name="" id="" required></li>
+                                                        <li><input value="住所を検索" type="submit" name="" id="" required> </li>
+                                                    </ul>
+                                                    <p class="new__dd-explain">※半角数字</p>
+                                                </dd>
+                                            </div>
+                                            <div class="new__row">
+                                                <dt class="new__dt">都道府県<span>※</span></dt>
+                                                <dd class="new__dd">
+                                                    <div class="new__dd-select">
+                                                        <select name="" id="" onchange="changeColor(this)">
+                                                            <option value="">未選択</option>
+                                                            <option value="東京都">東京都</option>
+                                                            <option value="大阪">大阪</option>
+                                                            <option value="福岡">福岡</option>
+                                                        </select>
+                                                    </div>
+                                                </dd>
+                                            </div>
+                                            <div class="new__row">
+                                                <dt class="new__dt">住所（市区町村・町域）<span>※</span></dt>
+                                                <dd class="new__dd"><input class="input" type="text" name="" id="" placeholder="例） 渋谷区恵比寿西" required></dd>
+                                            </div>
+                                            <div class="new__row">
+                                                <dt class="new__dt">住所（番地・マンション名）<span>※</span></dt>
+                                                <dd class="new__dd">
+                                                    <input class="input" type="text" name="" id="" placeholder="例） 1-26-15 代官山オフィス" required>
+                                                    <p class="new__dd-explain is-red">※建物名や部屋番号まで正しくご記入ください。</p>
+                                                </dd>
+                                            </div>
+                                            <div class="new__row">
+                                                <dt class="new__dt">電話番号<span>※</span></dt>
+                                                <dd class="new__dd">
+                                                    <input class="input" type="tel" name="" id="" placeholder="例）08012349999" required>
+                                                    <p class="new__dd-explain">※半角数字、ハイフンなし、携帯可</p>
+                                                </dd>
+                                            </div>
+                                        </dl>
+                                        <div class="new__register"><button type="submit">新規配送先を登録する</button></div>
+                                    </div>
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">ギフトラッピング</dt>
+                                <dd class="addresss__dd">
+                                    <div class="addresss__dd-gift">
+                                        <label for="no">
+                                            <input type="radio" name="gift" onclick="entryChange1();" id="no" checked>
+                                            <span>希望しない</span>
+                                        </label>
+                                    </div>
+                                    <div class="addresss__dd-gift">
+                                        <label for="yes">
+                                            <input type="radio" onclick="entryChange1();" name="gift" id="yes">
+                                            <span>希望する</span>
+                                        </label>
+                                    </div>
+                                    <div id="firstBox">
+                                        <div class="addresss__dd-gift-yes">
+                                            <div class="addresss__dd-gift-wrap">
+                                                <label for="all">
+                                                    <input class="form-radio" type="radio" name="wrap" id="all">
+                                                    <span>まとめてギフトラッピングする</span>
+                                                </label>
+                                            </div>
+                                            <div class="addresss__dd-gift-wrap">
+                                                <label for="one">
+                                                    <input class="form-radio" type="radio" name="wrap" id="one">
+                                                    <span>個別にギフトラッピングする</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="address__other-address-wrapper address__other-gift-wrapper">
+                                            <div class="check address__other-gift">
+                                                <label for="brand1">
+                                                    <input type="checkbox" name="" id="brand1">
+                                                    <div class="address__other-block">
+                                                        <div class="addresss__name">ブランド</div>
+                                                        <div class="addresss__address">商品名テキストテキストテキストテキストテキスト</div>
+                                                        <div class="addresss__tel">68 ネイビー系 / サイズM</div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="check address__other-gift">
+                                                <label for="brand2">
+                                                    <input type="checkbox" name="" id="brand2">
+                                                    <div class="address__other-block">
+                                                        <div class="addresss__name">ブランド</div>
+                                                        <div class="addresss__address">商品名テキストテキストテキストテキストテキスト</div>
+                                                        <div class="addresss__tel">68 ネイビー系 / サイズM</div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="check address__other-gift">
+                                                <label for="brand3">
+                                                    <input type="checkbox" name="" id="brand3">
+                                                    <div class="address__other-block">
+                                                        <div class="addresss__name">ブランド</div>
+                                                        <div class="addresss__address">商品名テキストテキストテキストテキストテキスト</div>
+                                                        <div class="addresss__tel">68 ネイビー系 / サイズM</div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="check address__other-gift">
+                                                <label for="brand4">
+                                                    <input type="checkbox" name="" id="brand4">
+                                                    <div class="address__other-block">
+                                                        <div class="addresss__name">ブランド</div>
+                                                        <div class="addresss__address">商品名テキストテキストテキストテキストテキスト</div>
+                                                        <div class="addresss__tel">68 ネイビー系 / サイズM</div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="check address__other-gift">
+                                                <label for="brand5">
+                                                    <input type="checkbox" name="" id="brand5">
+                                                    <div class="address__other-block">
+                                                        <div class="addresss__name">ブランド</div>
+                                                        <div class="addresss__address">商品名テキストテキストテキストテキストテキスト</div>
+                                                        <div class="addresss__tel">68 ネイビー系 / サイズM</div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="address__more-gift view-more">
+                                            <span class="more">VIEW MORE</span>
+                                            <span class="close on-click">閉じる</span>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">お届け日時指定</dt>
+                                <dd class="addresss__dd hope">
+                                    <p class="hope__not">※こちらの商品は、予約商品のためお届け日時ご指定いただけません。</p>
+                                    <div class="hope__date">希望日：利用できません</div>
+                                    <div class="hope__time">希望時間：希望しない</div>
+                                    <div class="hope__change">変更する</div>
+                                    <div class="hope__box-wrapper">
+                                        <div class="hope__box">
+                                            <div class="hope__select">
+                                                <label for="hope-date">希望日</label>
+                                                <select name="" id="hope-date">
+                                                    <option value="利用できません">利用できません</option>
+                                                    <option value="希望する">希望する</option>
+                                                </select>
+                                            </div>
+                                            <div class="hope__select">
+                                                <label for="hope-time">希望時間</label>
+                                                <select name="" id="hope-time">
+                                                    <option value="希望しない">希望しない</option>
+                                                    <option value="希望する">希望する</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="hope__explain">
+                                            ※離島・沖縄など、一部の地域において時間指定サービスを設定しても、ご指定のご希望に添えない場合がございます。あらかじめご了承ください。<br>
+                                            ※AM8：00までのご注文分は、「即日出荷」しております。 （AM8：01からのご注文分は翌日以降の出荷になります。）<br>
+                                            ご注文の集中等により発送にお時間をいただく場合もございます。あらかじめご了承いただきますようお願いいたします。<br>
+                                            予約商品や受注生産商品など一部の商品は配送予定日が異なりますので、詳しくは商品詳細ページに記載されている配送予定日をご確認ください。<br class="u-mobile">
+                                            詳しくは<a href="">こちら</a>をご確認ください。
+                                        </p>
+                                        <div class="hope__specify"><a href="">お届け日時指定について</a></div>
+                                        <div class="hope__register"><button type="submit">登録する</button></div>
+                                    </div>  
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">ポイント利用</dt>
+                                <dd class="addresss__dd point">
+                                    <div class="point__enable">
+                                        <span>ご利用可能ポイント：</span>
+                                        <span>20,000ポイント</span>
+                                    </div>
+                                    <div class="point__check">
+                                        <label for="use">
+                                            <input type="radio" name="point" id="use" class="form-radio">
+                                            <span>ポイントを使わない</span>
+                                        </label>
+                                    </div>
+                                    <div class="point__check">
+                                        <label for="not-use">
+                                            <input type="radio" name="point" id="not-use" class="form-radio" checked>
+                                            <span>ポイントを使う</span>
+                                        </label>
+                                    </div>
+                                    <div class="point__box">
+                                        <div class="point__point"><input placeholder="0" type="text" name="" id=""></div>
+                                        <div class="point__register"><button type="submit">決定</button></div>
+                                        <div class="point__all"><button type="submit">ポイント全額利用</button></div>
+                                    </div>
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">クーポン利用</dt>
+                                <dd class="addresss__dd coupon">
+                                    <p class="coupon__explain u-mobile">クーポンをお持ちのお客様は、クーポンコードを入力してください。</p>
+                                    <div class="coupon__box">
+                                        <div class="coupon__code"><input placeholder="クーポンコードを入力" type="text" name="" id=""></div>
+                                        <div class="coupon__register">
+                                            <button type="submit">登録</button>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">お支払い方法</dt>
+                                <dd class="addresss__dd credit">
+                                    <div class="credit__check">
+                                        <label for="credit-card">
+                                            <input class="form-radio" type="radio" name="pay" id="credit-card" checked>
+                                            <span>クレジットカード</span>
+                                        </label>
+                                    </div>
+                                    <div class="credit__register">
+                                        <div class="credit__img"><img src="images/common/credit.png" alt=""></div>
+                                        <dl class="credit__dl">
+                                            <div class="credit__row">
+                                                <dt class="credit__dt">カード番号</dt>
+                                                <dd class="credit__dd">
+                                                    <input type="text" name="" id="">
+                                                    <p class="credit__dd-explain">※半角数字のみ（ハイフンなし）</p>
+                                                </dd>
+                                            </div>
+                                            <div class="credit__row">
+                                                <dt class="credit__dt">セキュリティコード</dt>
+                                                <dd class="credit__dd credit__dd--flex">
+                                                    <input placeholder="例）1234" type="text" name="" id="">
+                                                    <a href="" class="credit__about">セキュリティーコードとは？</a>
+                                                </dd>
+                                            </div>
+                                            <div class="credit__row">
+                                                <dt class="credit__dt">有効期限</dt>
+                                                <dd class="credit__dd">
+                                                    <ul class="credit__dd-box">
+                                                        <li class="credit__dd-select">
+                                                            <select name="" id="">
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                            </select>
+                                                            <span>月</span>
+                                                        </li>
+                                                        <li class="credit__dd-select">
+                                                            <select name="" id="">
+                                                                <option value="2022">2022</option>
+                                                                <option value="2021">2021</option>
+                                                                <option value="2020">2020</option>
+                                                            </select>
+                                                            <span>年</span>
+                                                        </li>
+                                                    </ul>
+                                                </dd>
+                                            </div>
+                                            <div class="credit__row">
+                                                <dt class="credit__dt">カード情報を登録</dt>
+                                                <dd class="credit__dd">
+                                                    <div class="credit__box">
+                                                        <div class="credit__info">
+                                                            <label for="info-yes">
+                                                                <input class="form-radio" type="radio" name="info" id="info-yes" checked>
+                                                                <span>登録する</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="credit__info">
+                                                            <label for="info-no">
+                                                                <input class="form-radio" type="radio" name="info" id="info-no">
+                                                                <span>登録しない</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <p class="credit__note">
+                                                        ※カード番号の登録を行うと、次回のお支払いの際にカード情報の入力が省けます。<br>
+                                                        ※日本以外で発行されたクレジットカードはご利用になれません。自動キャンセルとさせて頂きます。
+                                                    </p>
+                                                </dd>
+                                            </div>
+                                            <div class="credit__row">
+                                                <dt class="credit__dt">お支払い回数</dt>
+                                                <dd class="credit__dd">
+                                                    <div class="credit__dd-payment">
+                                                        <select name="" id="" onchange="changeColor(this)">
+                                                            <option value="">お支払い回数を選択</option>
+                                                            <option value="3">3</option>
+                                                            <option value="6">6</option>
+                                                            <option value="9">9</option>
+                                                        </select>
+                                                    </div>
+                                                    <a href="" class="credit__about">クレジットカードでのお支払について</a>
+                                                </dd>
+                                            </div>
+                                        </dl>
+                                        <div class="credit__button"><button type="submit">登録する</button></div>
+                                    </div>
+                                    <div class="credit__kinds">
+                                        <p class="credit__kind">クレジット：一括払い</p>
+                                        <p class="credit__kind">カード番号：123456*******789</p>
+                                        <p class="credit__kind">セキュリティコード：***</p>
+                                        <p class="credit__kind">有効期限：5 / 2022</p>
+                                    </div>
+                                    <div class="credit__change">変更する</div>
+                                    <div class="credit__delivery">
+                                        <label for="credit-delivery">
+                                            <input class="form-radio" type="radio" name="pay" id="credit-delivery">
+                                            <span>代金引換</span>
+                                        </label>
+                                    </div>
+                                </dd>
+                            </div>
+                            <div class="addresss__row">
+                                <dt class="addresss__dt">お買い上げ明細書の金額表示</dt>
+                                <dd class="addresss__dd specification">
+                                    <div class="specification__box">
+                                        <div class="specification__check">
+                                            <label for="specification-yes">
+                                                <input class="form-radio" type="radio" name="specification" id="specification-yes" checked>
+                                                <span>あり</span>
+                                            </label>
+                                        </div>
+                                        <div class="specification__check">
+                                            <label for="specification-no">
+                                                <input class="form-radio" type="radio" name="specification" id="specification-no">
+                                                <span>なし</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="register__payment payment">
+                        <div class="payment__content">
+                            <dl class="payment__dl">
+                                <div class="payment__box">
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">商品代合計(税込)</dt>
+                                        <dd class="payment__dd">¥39,600</dd>
+                                    </div>
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">送料(税込)</dt>
+                                        <dd class="payment__dd">¥400</dd>
+                                    </div>
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">ギフトラッピング料</dt>
+                                        <dd class="payment__dd">¥0</dd>
+                                    </div>
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">代引き手数料(税込)</dt>
+                                        <dd class="payment__dd">¥0</dd>
+                                    </div>
+                                </div>
+                                <div class="payment__box">
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">利用ポイント数</dt>
+                                        <dd class="payment__dd">0ポイント</dd>
+                                    </div>
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">ポイント値引き額(税込)</dt>
+                                        <dd class="payment__dd">¥-0</dd>
+                                    </div>
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">今回付与ポイント</dt>
+                                        <dd class="payment__dd">340ポイント</dd>
+                                    </div>
+                                    <div class="payment__row">
+                                        <dt class="payment__dt">うちプラスポイント</dt>
+                                        <dd class="payment__dd">0ポイント</dd>
+                                    </div>
+                                </div>
+                            </dl>
+                            <div class="payment__total-box-wrapper u-mobile">
+                                <div class="payment__total-box">
+                                    <div class="payment__total">合計金額 (税込)</div>
+                                    <div class="payment__price">¥40,000</div>
+                                </div>
+                            </div>
+                            <div class="payment__meta">
+                                <div class="payment__body">
+                                    <div class="payment__total-box u-desktop">
+                                        <div class="payment__total">合計金額 (税込)</div>
+                                        <div class="payment__price">¥40,000</div>
+                                    </div>
+                                    <p class="payment__instructions">注文内容ご確認の上、<br>「注文を確定する」ボタンを押してください。</p>
+                                    <div class="payment__confirm"><button type="submit">注文を確定する</button></div>
+                                    <p class="payment__explain">
+                                        ※注文確定後の<span>お客さまご都合によるキャンセル・配送先変更・支払い方法の変更・ポイント利用内容の変更は承ることができません。</span><br>
+                                        ご希望された注文内容に誤りがないようご確認ください。<br>
+                                        詳細は<a href="">こちら</a>。
+                                    </p>
+                                </div>
+                                
+    
+                                <div class="payment__info-wrapper">
+                                    <div class="payment__info info">
+                                        <div class="info__box">
+                                            <div class="info__img"><img src="images/common/info.png" alt=""></div>
+                                            <div class="info__meta">
+                                                <div class="info__brand">ブランド</div>
+                                                <div class="info__name">商品名テキストテキストテキストテキストテキスト</div>
+                                                <div class="info__color">カラー：68 ネイビー系</div>
+                                                <div class="info__size">サイズ：M</div>
+                                                <div class="info__wrapping">ギフトラッピング：なし</div>
+                                                <div class="info__subtotal">小計：¥19,800</div>
+                                                <div class="info__order">注文数：1</div>
+                                                <p class="info__note">予約商品(配送日時指定不可)</p>
+                                                <p class="info__note">発送予定：2022年6月上旬</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="register__return"><a href="">前へ戻る</a></div>
+            </form>
+        </div>
+        
+    </section>
+
+
+
+    
+
+
+
+  </main>
+
+  
+
+  <div class="to-top"><a href="#"><img src="images/common/to-top.png" alt=""></a></div>
+
+
+
+</body>
+</html>

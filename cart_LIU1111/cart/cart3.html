@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title>カート・チェックアウト</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="robots" content="noindex">
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="”icon”" href="" />
+  <!-- css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper.min.css">
+  <link rel="stylesheet" href="./css/styles1111.css">
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+<body>
+  
+
+  <main class="section-main-content">
+    <section class="register">
+        <div class="register__inner inner">
+            <form action="" method="post" class="register__form">
+                <h2 class="register__title">ショッピングカート</h2>
+                <div class="register__step step">
+                    <div class="step__item">
+                        <div class="step__number is-active">1</div>
+                        <span>ショッピング<br class="u-mobile">カート</span>
+                    </div>
+                    <div class="step__item">
+                        <div class="step__number">2</div>
+                        <span>配送先・お支払い<br class="u-mobile">方法選択</span>
+                    </div>
+                    <div class="step__item">
+                        <div class="step__number">3</div>
+                        <span>ご注文完了</span>
+                    </div>
+                </div>
+                <div class="register__use">現在カートには、以下の商品が入っています。</div>
+                <ul class="register__lists u-desktop">
+                    <li class="register__list">商品情報</li>
+                    <li class="register__list">価格（税込）</li>
+                    <li class="register__list">注文数</li>
+                    <li class="register__list">小計</li>
+                </ul>
+                <div class="register__items">
+                    <div class="register__item product">
+                        <div class="product__info info">
+                            <div class="info__box">
+                                <div class="info__img"><img src="images/common/info.png" alt=""></div>
+                                <div class="info__meta">
+                                    <div class="info__brand">ブランド</div>
+                                    <div class="info__name">商品名テキストテキストテキストテキストテキスト</div>
+                                    <div class="info__color">カラー：68 ネイビー系</div>
+                                    <div class="info__size">サイズ：M</div>
+                                    <div class="info__wrapping">ギフトラッピング：可</div>
+                                    <div class="info__subtotal u-mobile">小計：¥19,800</div>
+                                    <p class="info__note">予約商品(配送日時指定不可)</p>
+                                    <p class="info__note">発送予定：2022年6月上旬</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__price u-desktop">¥19,800</div>
+                        <div class="product__order">
+                            <div class="product__select">
+                                <span class="u-mobile">注文数：</span>
+                                <select name="" id="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                            <div class="product__delete"><a href="">削除する</a></div>
+                        </div>
+                        <div class="product__subtotal u-desktop">¥19,800</div>
+                    </div>
+                </div>
+                <div class="register__box-total">
+                    <div class="register__total">合計<span class="u-mobile">:</span><span class="u-desktop">金額</span></div>
+                    <div class="register__total-price">¥39,600</div>
+                </div>
+                <div class="register__links">
+                    <div class="register__link u-desktop">
+                        <button class="register-form" type="submit">ショッピングを続ける</button>
+                    </div>
+                    <div class="register__link">
+                        <button class="register-form register-form--black" type="submit">ご購入手続きへ</button>
+                    </div>
+                </div>
+                <div class="register__amazon"><a href=""><img src="images/common/amazon.png" alt=""></a></div>
+                <p class="register__explain">※予約品と通常販売品は同時にカートへ入れることはできません。<br>※セール商品のご返品・ご交換はお受けできませんのであらかじめご了承ください。</p>
+            </form>
+        </div>
+        
+    </section>
+
+
+
+    <section class="recommend section-recommend">
+        <div class="recommend__inner inner">
+            <h2 class="recommend__title">おすすめアイテム</h2>
+            <div class="swiper-container js-recommend-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide recommend-block">
+                        <div class="recommend-block__img">
+                            <img src="images/common/recommend01.jpg" alt="">
+                            <a href="" class="recommend-block__icon"><img src="images/common/card-icon.svg" alt=""></a>
+                        </div>
+                        <div class="recommend-block__name">ブランド名</div>
+                        <div class="recommend-block__kind">ワンピース</div>
+                        <div class="recommend-block__price">¥39,600</div>
+                    </div>
+                    <div class="swiper-slide recommend-block">
+                        <div class="recommend-block__img">
+                            <img src="images/common/recommend02.jpg" alt="">
+                            <a href="" class="recommend-block__icon"><img src="images/common/card-icon.svg" alt=""></a>
+                        </div>
+                        <div class="recommend-block__name">ブランド名</div>
+                        <div class="recommend-block__kind">ワンピース</div>
+                        <div class="recommend-block__price">¥39,600</div>
+                    </div>
+                    <div class="swiper-slide recommend-block">
+                        <div class="recommend-block__img">
+                            <img src="images/common/recommend03.jpg" alt="">
+                            <a href="" class="recommend-block__icon"><img src="images/common/card-icon.svg" alt=""></a>
+                        </div>
+                        <div class="recommend-block__name">ブランド名</div>
+                        <div class="recommend-block__kind">ワンピース</div>
+                        <div class="recommend-block__price">¥39,600</div>
+                    </div>
+                    <div class="swiper-slide recommend-block">
+                        <div class="recommend-block__img">
+                            <img src="images/common/recommend04.jpg" alt="">
+                            <a href="" class="recommend-block__icon"><img src="images/common/card-icon.svg" alt=""></a>
+                        </div>
+                        <div class="recommend-block__name">ブランド名</div>
+                        <div class="recommend-block__kind">ワンピース</div>
+                        <div class="recommend-block__price">¥39,600</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-recommend-next"><img src="images/common/swiper-arrow-right.png" alt=""></div>
+            <div class="recommend__link u-mobile"><a href="" class="return-link">ショッピングへ戻る</a></div>
+        </div>
+    </section>
+
+
+
+  </main>
+
+  
+
+  <div class="to-top"><a href="#"><img src="images/common/to-top.png" alt=""></a></div>
+
+
+
+</body>
+</html>
